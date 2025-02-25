@@ -361,3 +361,63 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Unity generated cache and temporary files
+[Ll]ibrary/*
+[Tt]emp/*
+[Oo]bj/*
+[Bb]uild/*
+
+# Ignore compiled code and build-related files
+*.compiled
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# Ignore build artifacts from Unity's Addressables
+AddressablesData/
+
+# Ignore asset bundles
+*.assetbundle
+
+# Ignore files created by Unity when building for a specific platform
+*.apk
+*.xap
+*.aab
+*.ipa
+
+# Ignore Unity editor logs
+Editor.log
+Editor-prev.log
+
+# Ignore all unity scene backups
+*.bak
+
+# Ignore Unity's EditorPrefs and other settings files
+EditorSettings.asset
+ProjectSettings/EditorSettings.asset
+ProjectSettings/TimeSettings.asset
+ProjectSettings/GraphicsSettings.asset
+
+# Ignore Node.js module cache
+node_modules/
+
+# Ignore Yarn lock files and cache
+yarn.lock
+.yarn-cache/
+
+# Ignore NPM lock files and cache
+package-lock.json
+npm-debug.log
+
+# macOS system files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Linux swap files
+*.swp
+
+
